@@ -10,3 +10,9 @@
 //= require bueditor/library/bue.popup
 //= require bueditor/library/bue.preview
 //= require bueditor/library/bue.tab
+
+jQuery(function() {
+    $('textarea.editor-bueditor').each(function(ix) {
+        BUE.processTextarea(this);
+    }
+});

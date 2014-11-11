@@ -34,7 +34,7 @@ your application.js:
 ```
 jQuery(function() {
     $('textarea#bueditor').each(function(ix) {
-        editor.processTextarea(this);
+        BUE.processTextarea(this);
     });
 });
 ```
